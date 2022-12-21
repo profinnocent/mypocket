@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+img {
+  width: 50px;
+}
+#text {
+  height: 25px;
+  border-radius: 5px;
+  padding: 4px;
+  border: solid thin #aaa;
+  width: 100%;
+}
+#button {
+  padding: 10px;
+  width: 100px;
+  color: white;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 1.5s;
+}
+#button:hover {
+  transform: scale(1.2);
+  background-color: blueviolet;
+}
+#box {
+  background-color: gray;
+  margin: auto;
+  width: 350px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.adbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adbtn > * {
+  margin: 0 5px;
+}
+
+.account {
+  background-color: lightgray;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.account button {
+  border-radius: 5px;
+  margin: 0 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.account #depbtn {
+  background-color: rgb(51, 115, 51);
+  padding: 2px 10px;
+}
+
+.account #witbtn {
+  background-color: rgb(192, 85, 85);
+  padding: 2px 5px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#balance {
+  font-size: 32px;
+}
+
+.username {
+  font-size: xx-large;
+  color: rgb(225, 217, 217);
+}
+
+.box .stats {
+  display: flex;
+}
+
+.stats1{
+  text-align: center;
+  display: flex;
+}
+
+/* .stats .noofusers {
+  display: flex;
+  background-color: aqua;
+} */
+
+/* Media Query */
+@media only screen and (max-width: 576px) {
+  #box {
+    width: 90%;
+  }
+}
