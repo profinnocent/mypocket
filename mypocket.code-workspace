@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../Aptech/mypocket/css"
+	},
+	{
+		"path": "../../Aptech/mypocket/images"
+	},
+	{
+		"path": "../../Aptech/mypocket/uploads"
+	}
+],
+  "settings": {}
+}
