@@ -1,2 +1,2 @@
 # mypocket
-A backend user and wallet management api built with php.
+A Fullstack user and wallet management app built with php.
